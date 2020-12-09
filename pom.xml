@@ -30,6 +30,12 @@
       <artifactId>checkstyle</artifactId>
       <version>8.38</version>
     </dependency>
+    <dependency>
+      <groupId>net.sourceforge.pmd</groupId>
+      <artifactId>pmd</artifactId>
+      <version>6.29.0</version>
+      <type>pom</type>
+    </dependency>
   </dependencies>
 
   <build>
@@ -74,6 +80,8 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+
+        
       </plugins>
     </pluginManagement>
   </build>
@@ -94,5 +102,5 @@
         </plugin>
       </plugins>
     </reporting>
-    
+
 </project>
