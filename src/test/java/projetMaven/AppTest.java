@@ -14,7 +14,9 @@ public class AppTest
      */
     @Test
     public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    {   
+        for(int i=0; i<50; i++){
+            assertTrue( true );
+        }
     }
 }
