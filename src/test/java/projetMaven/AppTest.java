@@ -15,8 +15,15 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {   
-        for(int i=0; i<50; i++){
-            assertTrue( true );
-        }
+        assertTrue( true );
+    }
+
+     /**
+     * Rigorous Test :-)
+     */
+    @Test
+    public void shouldAnswerWithFalse()
+    {   
+        assertTrue( false );
     }
 }
